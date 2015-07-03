@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/dylanfoster/eslint-config-unstandard",
   "keywords": [
-    "eslint"
+    "eslint",
     "eslint-config",
   ]
 }
