@@ -1,0 +1,23 @@
+{
+  "name": "eslint-config-unstandard",
+  "version": "1.0.0",
+  "description": "eslint shared config with some \"un\"-standard defaults",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dylanfoster/eslint-config-unstandard.git"
+  },
+  "author": "Dylan Foster <dylan947@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dylanfoster/eslint-config-unstandard/issues"
+  },
+  "homepage": "https://github.com/dylanfoster/eslint-config-unstandard",
+  "keywords": [
+    "eslint"
+    "eslint-config",
+  ]
+}
