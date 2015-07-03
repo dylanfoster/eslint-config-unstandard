@@ -5,6 +5,9 @@ module.exports = {
     es6: true,
     node: true
   },
+  ecmaFeatures: {
+    modules: true
+  },
   globals: {
     after: true,
     afterEach: true,
