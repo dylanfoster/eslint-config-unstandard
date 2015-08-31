@@ -6,7 +6,7 @@ module.exports = {
     node: true
   },
   ecmaFeatures: {
-    modules: true
+    module: true
   },
   globals: {
     after: true,
@@ -40,7 +40,6 @@ module.exports = {
     "no-process-exit": 0,
     "no-redeclare": 2,
     "no-self-compare": 2,
-    "no-space-before-semi": 2,
     "no-trailing-spaces": 2,
     "no-undefined": 2,
     "no-underscore-dangle": 0,
@@ -53,7 +52,7 @@ module.exports = {
     semi: [2, "always"],
     "sort-vars": 2,
     "space-after-keywords": 2,
-    strict: 2,
+    strict: [2, "global"],
     "wrap-iife": [2, "inside"]
   }
 };
