@@ -1,6 +1,6 @@
 # eslint-config-unstandard
 
-A set of ESlint configuartions with a different approach.
+> A set of ESlint configurations with a different approach.
 
 ## Installation
 
@@ -8,7 +8,7 @@ A set of ESlint configuartions with a different approach.
 
 ## Usage
 
-.eslintrc
+`.eslintrc`
 
 ```javascript
 {
@@ -22,6 +22,16 @@ or yaml
 ---
   extends: unstandard
 ```
+
+There are also a set of test specific rules that can be used:
+
+`test/.eslintrc`
+
+```yaml
+---
+extends: "unstandard/test"
+```
+
 
 ## License
 
