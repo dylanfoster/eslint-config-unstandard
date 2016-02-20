@@ -37,7 +37,9 @@ module.exports = {
     "no-spaced-func": 2,
     "no-trailing-spaces": 2,
     "no-unneeded-ternary": 2,
-    "object-curly-spacing": [2, "always"],
+    "object-curly-spacing": [2, "always", {
+      objectsInObjects: false
+    }],
     "one-var": [2, { uninitialized: "always", initialized: "never" }],
     "operator-linebreak": 2,
     "padded-blocks": [2, "never"],
