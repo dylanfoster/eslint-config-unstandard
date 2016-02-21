@@ -6,6 +6,7 @@ module.exports = {
     mocha: true
   },
   rules: {
+    "camelcase": 0,
     "consistent-return": 0,
     "func-names": 0,
     "max-nested-callbacks": 0,
