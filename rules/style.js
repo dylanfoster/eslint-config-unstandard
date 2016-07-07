@@ -11,7 +11,7 @@ module.exports = {
     "consistent-this": [2, "self"],
     "eol-last": 2,
     "func-names": 2,
-    "indent": [2, 2],
+    "indent": [2, 2, { SwitchCase: 1 }],
     "key-spacing": 2,
     "keyword-spacing": 2,
     "linebreak-style": 2,
