@@ -22,7 +22,7 @@ module.exports = {
       "beforeBlockComment": true,
       "beforeLineComment": true
     }],
-    "max-len": [1, { ignoreUrls: true }],
+    "max-len": [1, { code: 100, ignoreComments: true, ignoreUrls: true }],
     "max-nested-callbacks": [2, 3],
     "new-cap": 2,
     "new-parens": 2,
