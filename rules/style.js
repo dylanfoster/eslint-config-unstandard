@@ -24,7 +24,7 @@ module.exports = {
     }],
     "max-len": [1, { code: 100, ignoreComments: true, ignoreUrls: true }],
     "max-nested-callbacks": [2, 3],
-    "new-cap": 2,
+    "new-cap": [2, { properties: false }],
     "new-parens": 2,
     "newline-after-var": 2,
     "no-inline-comments": 2,
