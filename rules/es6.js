@@ -10,7 +10,9 @@ module.exports = {
     sourceType: "module"
   },
   rules: {
-    "arrow-body-style": [2 , "as-needed"],
+    "arrow-body-style": [2 , "as-needed", {
+      requireReturnForObjectLiteral: true
+    }],
     "arrow-parens": [2, "as-needed"],
     "arrow-spacing": 2,
     "constructor-super": 2,
