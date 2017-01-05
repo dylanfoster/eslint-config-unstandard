@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-unstandard",
-  "version": "1.4.0",
+  "version": "1.4.1",
   "description": "eslint shared config with some \"un\"-standard defaults",
   "main": "index.js",
   "repository": {
