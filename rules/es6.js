@@ -4,18 +4,10 @@ module.exports = {
   env: {
     es6: true
   },
-  ecmaFeatures: {
-    arrowFunctions: true,
-    blockBindings: true,
-    classes: true,
-    forOf: true,
-    generators: true,
-    objectLiteralComputedProperties: true,
-    objectLiteralShorthandMethods:true,
-    objectLiteralShorthandProperties: true,
-    spread: true,
-    superInFunctions: true,
-    templateStrings: true
+  parser: "espree",
+  parserOptions: {
+    ecmaVersion: 6,
+    sourceType: "module"
   },
   rules: {
     "arrow-body-style": [2 , "as-needed"],

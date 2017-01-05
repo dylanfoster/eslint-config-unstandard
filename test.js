@@ -12,6 +12,7 @@ module.exports = {
     "max-nested-callbacks": 0,
     "no-invalid-this": 0,
     "no-magic-numbers": 0,
+    "no-unused-expressions": 0,
     "no-unused-vars": 0,
     "object-curly-spacing": [2, "always", { objectsInObjects: false }],
     "object-shorthand": 0,
